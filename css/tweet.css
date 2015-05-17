@@ -104,12 +104,11 @@ nav a {
   	border-radius: 100%;
 }
 
+
+
 /*************************************
-
 twitter message
-
 **************************************/
-
 
 .tweet {
 	overflow:hidden;
@@ -200,20 +199,27 @@ twitter message
 	padding-left: 0;
 }
 
+
+
 /*************************************
-
 posts
-
 **************************************/
-
 
 .posts {
 	margin-top: 25px;
 }
 
 .post {
+	overflow:hidden;
+	background-color: #ffffff; 
+	border: 1px solid #d8d8d8;
+	max-width: 750px;
+	border-radius: 4px;
+	margin: 35px auto 0;
 	margin-top: 0px;
-	padding-bottom: 25px;
+	padding: 25px;
+	font-family: "Helvetica Neue";
+	font-weight: 300;
 }
 
 .post_message {
@@ -234,19 +240,18 @@ posts
 	border-radius: 0 0 4px 4px;
 }
 
+
+
+/*************************************
+leave a message
+**************************************/
+
 .new_post{
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
 
-/*************************************
-
-my empty post
-
-**************************************/
-
-
-.join_message {
+.leave_a_message {
 	width: 648px;
 	min-height: 65px;
 	margin-top: 0;
